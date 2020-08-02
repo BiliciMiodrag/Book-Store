@@ -1,0 +1,53 @@
+.book{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+width: 80%;
+
+}
+
+.book_image{
+	position: relative;
+overflow-x: hidden;
+display: flex;
+justify-content: center;
+}
+
+.book_image a{
+height: 100%;
+width:auto;
+
+}
+
+.book_image img{
+height: 250px;
+max-width: none;
+
+}
+
+.book_title{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.book_title p{
+	height: 60px;
+	text-align: center;
+}
+.book_actions{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.book_price{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#quantity{
+	
+}
